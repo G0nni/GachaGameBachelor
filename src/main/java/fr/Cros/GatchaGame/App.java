@@ -78,7 +78,7 @@ public class App{
     public App() {
 
         /*------------------------------------------Accueil--------------------------------------------------------------*/
-        imgBackground = new ImageIcon(this.getClass().getResource("/Images/Fond/SoloLeveling.jpg")); // récupération de l'image dans les ressources
+        imgBackground = new ImageIcon(this.getClass().getResource("/Images/Fond/Guts.jpg")); // récupération de l'image dans les ressources
         InterfaceApp = new JLabel(imgBackground);       // création du label
         InterfaceApp.setSize(300, 700);     // taille du label défini
 
